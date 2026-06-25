@@ -43,7 +43,7 @@ This project follows a complete machine learning workflow—from data exploratio
 ---
 
 # Project Structure
-
+"""
 Telecom-Customer-Segmentation-and-Churn-Prediction/
 │
 ├── data/
@@ -89,7 +89,7 @@ Telecom-Customer-Segmentation-and-Churn-Prediction/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-
+"""
 
 # Tech Stack
 
