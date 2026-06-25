@@ -44,35 +44,52 @@ This project follows a complete machine learning workflow—from data exploratio
 
 # Project Structure
 
-```text
 Telecom-Customer-Segmentation-and-Churn-Prediction/
 │
 ├── data/
 │   ├── raw/
-│   └── processed/
-│
-├── eda/
-│
-├── preprocessing/
-│
-├── segmentation/
-│
-├── models/
-│
-├── evaluation/
-│
-├── analytics/
-│
-├── outputs/
+│   │   └── telecom_churn.csv
+│   │
+│   ├── processed/
+│   │   
+│   │
+│   └── sample/
+│       
 │
 ├── docs/
+│   └── plots/
+│       ├── plot_churn_overview.png
+│       ├── plot_correlation.png
+│       ├── plot_demographics.png
+│       ├── plot_elbow.png
+│       ├── plot_pca_clusters.png
+│       ├── plot_segment_churn.png
+│       ├── plot_state_churn.png
+│       ├── plot_tenure_age.png
+│       ├── plot_usage_behavior.png
+│       └── plot_confusion_matrix.png
+│
+├── notebooks/
+│   └── telecom_customer_analysis.ipynb
+│
+├── outputs/
+│   ├── reports/
+│   ├── metrics/
+│   └── predictions/
+│
+├── src/
+│   ├── analytics/
+│   ├── eda/
+│   ├── evaluation/
+│   ├── models/
+│   ├── preprocessing/
+│   └── segmentation/
 │
 ├── main.py
+├── README.md
 ├── requirements.txt
-└── README.md
-```
+├── .gitignore
 
----
 
 # Tech Stack
 
