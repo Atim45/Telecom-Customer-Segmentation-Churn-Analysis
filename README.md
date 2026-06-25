@@ -1,4 +1,4 @@
-# 📊 Telecom Customer Segmentation & Churn Prediction
+# Telecom Customer Segmentation & Churn Prediction
 
 An end-to-end Data Analytics and Machine Learning project that analyzes telecom customer behavior, performs customer segmentation using K-Means clustering, and predicts customer churn using multiple machine learning models.
 
@@ -6,7 +6,7 @@ The project follows a modular Python architecture with separate components for d
 
 ---
 
-# 📊 Dataset
+# Dataset
 
 - **Dataset Name:** `telecom_churn.csv`
 - **Domain:** Telecommunications
@@ -21,7 +21,7 @@ The dataset contains customer demographic information, telecom usage behavior, r
 
 ---
 
-# 🚀 Features
+# Features
 
 - Data Cleaning & Preprocessing
 - Feature Engineering
@@ -35,7 +35,7 @@ The dataset contains customer demographic information, telecom usage behavior, r
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 - Python
 - Pandas
@@ -48,7 +48,7 @@ The dataset contains customer demographic information, telecom usage behavior, r
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 Telecom-Customer-Segmentation-and-Churn-Prediction
@@ -90,7 +90,7 @@ Telecom-Customer-Segmentation-and-Churn-Prediction
 
 ---
 
-# ▶️ How to Run
+#  How to Run
 
 ### Clone the repository
 
@@ -118,7 +118,7 @@ python main.py
 
 ---
 
-# 🤖 Machine Learning Models
+# Machine Learning Models
 
 The following machine learning models were implemented and compared:
 
@@ -130,7 +130,7 @@ The following machine learning models were implemented and compared:
 
 ---
 
-# 📈 Results
+# Results
 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |:-----------------------------|:--------:|:---------:|:------:|:--------:|
@@ -144,7 +144,7 @@ The following machine learning models were implemented and compared:
 
 ---
 
-# 🔑 Key Findings
+#  Key Findings
 
 - The dataset is highly imbalanced (~80% Non-Churn vs ~20% Churn), making **Accuracy alone an unreliable evaluation metric.**
 - Hyperparameter tuning significantly improved churn detection compared to the baseline model.
@@ -155,7 +155,7 @@ The following machine learning models were implemented and compared:
 
 ---
 
-# 💼 Business Recommendations
+#  Business Recommendations
 
 - Prioritize retention efforts for newly registered customers.
 - Monitor customers with low engagement using usage-based metrics.
@@ -164,7 +164,7 @@ The following machine learning models were implemented and compared:
 
 ---
 
-# 📚 Learning Outcomes
+# Learning Outcomes
 
 Through this project, I gained hands-on experience in:
 
@@ -181,6 +181,6 @@ Through this project, I gained hands-on experience in:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Atiksh Sharma**
