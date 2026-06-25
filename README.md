@@ -160,14 +160,13 @@ The following models were implemented and compared:
 
 | Model                          | Accuracy | Precision | Recall | F1 Score |
 | ------------------------------ | -------- | --------- | ------ | -------- |
-| Baseline Random Forest         | XX       | XX        | XX     | XX       |
-| Random Forest + SMOTE          | XX       | XX        | XX     | XX       |
-| Tuned Random Forest            | XX       | XX        | XX     | XX       |
-| Feature Selected Random Forest | XX       | XX        | XX     | XX       |
-| XGBoost                        | XX       | XX        | XX     | XX       |
+| Baseline Random Forest         | 79.95%   | 000       | 00     | 00       |
+| Random Forest + SMOTE          | 66.44%   | 0.201     | 0.226  | 0.213    |
+| Tuned Random Forest            | 59.35%   | 0.202     | 0.347  | 0.255    |
+| Feature Selected Random Forest | 79.94%   | 000       | 0.0    | 0.00     |
+| XGBoost                        | 79.95%   | 0.00      | 0.00   | 0.00     |
 
-The best-performing model was selected based on the evaluation metrics.
-
+The Tuned Random Forest achieved the best performance for churn prediction based on F1 Score (0.255), making it the most effective model for identifying churned customers in this imbalanced dataset.
 ---
 
 # Key Learnings
